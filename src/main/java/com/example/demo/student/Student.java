@@ -25,7 +25,9 @@ public class Student {
 
     // Add a field for optimistic locking
     @Version
+    @Column(columnDefinition = "integer default 0")
     private Integer version;
+
 
     public Student() {
     }
