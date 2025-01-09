@@ -23,7 +23,9 @@ public class Student {
     private LocalDate dob;
     private Integer age;
 
-
+    // Add a field for optimistic locking
+    @Version
+    private Integer version;
 
     public Student() {
     }
