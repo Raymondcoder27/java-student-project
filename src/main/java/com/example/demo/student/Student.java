@@ -19,9 +19,10 @@ public class Student {
     )
     private Long id;
     private String name;
-    private Integer age;
-    private LocalDate dob;
     private String email;
+    private LocalDate dob;
+    private Integer age;
+
 
 
     public Student() {
